@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#container{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    border: 1px solid;
+    margin: 120px auto 0 auto;
+}
+.square{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 1px ;
+    box-sizing: border-box;
+    border-left:2px solid #fff;
+    border-top:2px solid #fff;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
